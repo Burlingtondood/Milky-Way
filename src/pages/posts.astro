@@ -8,7 +8,7 @@ const pageTitle = "Posts";
 
 <Layout pageTitle={pageTitle}>
     <div class="gif">
-        <img width="300" height="259" alt="RaccoonNotesGif" src="/blog.webp" />
+        <img width="300" height="259" alt="RaccoonNotesGif" src="/food.webp" />
     </div>
     <h2>Blog</h2>
     <ul role="list" class="link-card-grid">
@@ -18,6 +18,7 @@ const pageTitle = "Posts";
                     url={`/posts/${cardPost.slug}/`}
                     image={cardPost.data.image.url}
                     title={cardPost.data.title}
+                    body={cardPost.data.description}
                     date={cardPost.data.date}
                 />
             ))

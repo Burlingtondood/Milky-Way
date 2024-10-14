@@ -260,6 +260,10 @@ footer {
     content: url("/li-in-white.png");
 }
 
+.facebook {
+    content: url("/fb-in-white.png");
+}
+
 /* 404 */
 .lost {
     margin-top: 30%;
@@ -331,6 +335,10 @@ html.light {
 
 .light .linked-in {
     content: url("/li-in.png");
+}
+
+.light .facebook {
+    content: url("/fb-in.png");
 }
 
 .light .badge__link {

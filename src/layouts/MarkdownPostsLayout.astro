@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props;
 
 <BaseLayout pageTitle={frontmatter.title}>
     <div class="gif">
-        <img width="300" height="259" alt="RaccoonNotesGif" src="/blog.webp" />
+        <img width="300" height="259" alt="Hello guys!" src="/hello_guys.webp" />
     </div>
     <h2 style="text-decoration:none;">{frontmatter.title}</h2>
     <ul class="badge__list">
@@ -17,4 +17,8 @@ const { frontmatter } = Astro.props;
         </li>
     </ul>
     <slot />
+    <!-- <div class="center">
+        <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
+        <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} />
+    </div> -->
 </BaseLayout>
